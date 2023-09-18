@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class App {
+    /*programa */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -16,7 +17,7 @@ public class App {
         String fraseSubstituida = substituirPalavra(frase, palavraOriginal, palavraSubstituta);
         System.out.println("Frase com a palavra substituída: " + fraseSubstituida);
     }
-
+    /*replace all */
     public static String substituirPalavra(String frase, String palavraOriginal, String palavraSubstituta) {
         return frase.replaceAll("\\b" + palavraOriginal + "\\b", palavraSubstituta);
     }
