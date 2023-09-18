@@ -6,23 +6,25 @@ public class App {
      * @param args
      * @throws Exception
      */
+
+     /* scanner perguntando a quantidade de patos que irao passear */
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
-        System.out.println("Digite a quantidade de patos que vão passear:");
+        System.out.println("Digite quantos patos irão passear de 1 a 5:");
         int n = input.nextInt();
         int p;
         p = n;
         int i;
         i = 1;
-
+    /*limitador da quantidade de patos */
         if (n>5 || n<=0) {
-            System.out.println("Problema de USB");
+            System.out.println("Até 5 por favor");
             System.exit(0);
         }
         else {
             System.out.println("Historia dos Patinhos.");
         }
-
+    /*laço com a musica */
         while (n>0) {
             if (n != 1) {
             
