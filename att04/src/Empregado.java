@@ -4,7 +4,7 @@ public class Empregado {
     private double salarioMensal;
 
     /* Construtor */
-    public Empregado(String nome, String sobrenome, double salarioMensal) {
+    public EmpregadoTeste(String nome, String sobrenome, double salarioMensal) {
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.salarioMensal = salarioMensal;
@@ -46,7 +46,7 @@ public class Empregado {
     }
 }
 
-public class Empregados {
+public class Empregado {
     private String nome;
     private String sobrenome;
     private double salarioMensal;
@@ -91,4 +91,11 @@ public class Empregados {
     /* Método para aplicar um aumento de 10% no salário */
     public void aplicarAumentoSalario() {
         salarioMensal *= 1.10; /* Aumento de 10% */
+    }
+
+
+    public class EmpregadoTeste {
+        public static void main (String[] args){
+            
+        }
     }
