@@ -7,8 +7,6 @@ public class DataTeste {
         Data calendario = new Data(10, 1, 2002);
         
         calendario.displayData();
-
-        System.out.println(calendario);
     }
 
     
