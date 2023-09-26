@@ -4,6 +4,7 @@
  */
 package lista2.jbox;
 
+import java.awt.Component;
 import javax.swing.JOptionPane;
 
 
@@ -123,12 +124,16 @@ public class jbox360 extends javax.swing.JFrame {
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
-        String nome = String.valueOf(jTextField1.getText());
+        
     }//GEN-LAST:event_jTextField1ActionPerformed
 
+    
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog( jTextField1, JOptionPane.INFORMATION_MESSAGE);
+        String x;
+        x = String.valueOf(jTextField1.getText());
+        JOptionPane.showMessageDialog( x, JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
